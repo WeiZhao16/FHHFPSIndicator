@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20EB4CD42BE9DDD300CCF9C1 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 20EB4CD32BE9DDD300CCF9C1 /* PrivacyInfo.xcprivacy */; };
 		25C90C9C1D227566002F1B5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C90C9B1D227566002F1B5E /* main.m */; };
 		25C90CA71D227566002F1B5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25C90CA61D227566002F1B5E /* Assets.xcassets */; };
 		25C90CAA1D227566002F1B5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C90CA81D227566002F1B5E /* LaunchScreen.storyboard */; };
@@ -23,7 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		20EB4CD32BE9DDD300CCF9C1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		20EB53332BEA0B4B00CCF9C1 /* FHHFPSIndicator.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = FHHFPSIndicator.podspec; path = ../../FHHFPSIndicator.podspec; sourceTree = "<group>"; };
+		20EB53342BEA0B9F00CCF9C1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = ../../FHHFPSIndicator/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		257574D81F5E9D440069680F /* Commom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Commom.h; sourceTree = "<group>"; };
 		257574D91F5E9D510069680F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		257574DB1F5E9EF50069680F /* CommonFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonFont.h; sourceTree = "<group>"; };
@@ -106,6 +106,8 @@
 		25C90C9A1D227566002F1B5E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				20EB53342BEA0B9F00CCF9C1 /* PrivacyInfo.xcprivacy */,
+				20EB53332BEA0B4B00CCF9C1 /* FHHFPSIndicator.podspec */,
 				25C90C9B1D227566002F1B5E /* main.m */,
 				257574D81F5E9D440069680F /* Commom.h */,
 				257574D91F5E9D510069680F /* PrefixHeader.pch */,
@@ -147,7 +149,6 @@
 		25C90CCF1D237DF0002F1B5E /* FHHFPSIndicator */ = {
 			isa = PBXGroup;
 			children = (
-				20EB4CD32BE9DDD300CCF9C1 /* PrivacyInfo.xcprivacy */,
 				25C90CD01D237DF0002F1B5E /* FHHFPSIndicator.h */,
 				25C90CD11D237DF0002F1B5E /* FHHFPSIndicator.m */,
 				25C90CD21D237DF0002F1B5E /* UIWindow+FHH.h */,
@@ -215,7 +216,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20EB4CD42BE9DDD300CCF9C1 /* PrivacyInfo.xcprivacy in Resources */,
 				25C90CAA1D227566002F1B5E /* LaunchScreen.storyboard in Resources */,
 				25C90CA71D227566002F1B5E /* Assets.xcassets in Resources */,
 			);

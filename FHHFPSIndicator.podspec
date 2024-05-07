@@ -21,4 +21,5 @@ Pod::Spec.new do |s|
   s.source_files = 'FHHFPSIndicator/**/*.{h,m,png}'
   s.requires_arc = true
 
+  s.resource_bundles = {'FHHFPSIndicator' => ['FHHFPSIndicator/PrivacyInfo.xcprivacy']}
 end
