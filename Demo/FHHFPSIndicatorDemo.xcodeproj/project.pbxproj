@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20EB4CD42BE9DDD300CCF9C1 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 20EB4CD32BE9DDD300CCF9C1 /* PrivacyInfo.xcprivacy */; };
 		25C90C9C1D227566002F1B5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C90C9B1D227566002F1B5E /* main.m */; };
 		25C90CA71D227566002F1B5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25C90CA61D227566002F1B5E /* Assets.xcassets */; };
 		25C90CAA1D227566002F1B5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C90CA81D227566002F1B5E /* LaunchScreen.storyboard */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20EB4CD32BE9DDD300CCF9C1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		257574D81F5E9D440069680F /* Commom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Commom.h; sourceTree = "<group>"; };
 		257574D91F5E9D510069680F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		257574DB1F5E9EF50069680F /* CommonFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonFont.h; sourceTree = "<group>"; };
@@ -63,6 +65,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20EB4CD22BE9DD7C00CCF9C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		25C90C8E1D227566002F1B5E = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +91,7 @@
 		25C90C991D227566002F1B5E /* FHHFPSIndicatorDemo */ = {
 			isa = PBXGroup;
 			children = (
+				20EB4CD22BE9DD7C00CCF9C1 /* Resources */,
 				25C90CCF1D237DF0002F1B5E /* FHHFPSIndicator */,
 				25C90CC11D227636002F1B5E /* Utility */,
 				25C90CB11D22762D002F1B5E /* Classes */,
@@ -137,6 +147,7 @@
 		25C90CCF1D237DF0002F1B5E /* FHHFPSIndicator */ = {
 			isa = PBXGroup;
 			children = (
+				20EB4CD32BE9DDD300CCF9C1 /* PrivacyInfo.xcprivacy */,
 				25C90CD01D237DF0002F1B5E /* FHHFPSIndicator.h */,
 				25C90CD11D237DF0002F1B5E /* FHHFPSIndicator.m */,
 				25C90CD21D237DF0002F1B5E /* UIWindow+FHH.h */,
@@ -185,6 +196,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -203,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20EB4CD42BE9DDD300CCF9C1 /* PrivacyInfo.xcprivacy in Resources */,
 				25C90CAA1D227566002F1B5E /* LaunchScreen.storyboard in Resources */,
 				25C90CA71D227566002F1B5E /* Assets.xcassets in Resources */,
 			);
